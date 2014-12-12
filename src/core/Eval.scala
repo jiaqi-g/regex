@@ -21,5 +21,6 @@ object Eval {
     //println(3)
     val r = new Eval
     println(r.accept(Alt(Sym('a'), Sym('b')), "b"))
+    println("test")
   }
 }
